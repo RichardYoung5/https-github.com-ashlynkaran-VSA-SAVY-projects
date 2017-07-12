@@ -1,10 +1,13 @@
-# Name:
-# Date:
+# Name:Richard Young & Trey Owen
+# Date: 12 July 2017
 
-"""
-proj04
+print "\nWelcome to PalindromePlus!"
+fddddffd = raw_input("Press ENTER")
+print ""
 
-Asks the user for a string and prints out whether or not the string is a palindrome.
-
-"""
-
+str = raw_input("Enter a word or phrase: ")
+if str[0] == str[-1]:
+    print "\n Yes! It is true!"
+list = str
+str_list = str.split(" ")
+    for letter in str:

@@ -15,5 +15,15 @@
 # Enter a number to sum, or 0 to indicate you are finished: 5
 # Enter a number to sum, or 0 to indicate you are finished: 2
 # Enter a number to sum, or 0 to indicate you are finished: 10
-# Enter a number to sum, or 0 to indicate you are finished: 0
-#The sum of your numbers is: 21
+# Enter a number to sum, or 0 t
+
+
+
+loop_control = True
+solve = 0
+while loop_control ==True:
+    Number = raw_input("Enter a number to add to the Equation, or a 0 to show you are finished: ")
+    if (Number) == "0":
+        loop_control = False
+    solve = int(Number) + solve
+print solve,'is your sum.'
